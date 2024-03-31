@@ -1,0 +1,6 @@
+server:
+  port: 5551
+
+spring:
+  application:
+    name: Testers Helper
