@@ -21,6 +21,7 @@ public class PathController {
     // http://localhost:5551/api/v1/path
 
     @PostMapping
+    @CrossOrigin("*")
     public ResponseEntity<Boolean> downloadExtension(@RequestBody NewPathDto newPathDto){
         System.out.println("NewPathDto => "+newPathDto.getFullXPath());
         return ResponseEntity.ok(true);
