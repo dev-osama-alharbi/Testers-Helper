@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d24e8a23-131f-4a28-9f85-ba4a09ff980f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/sa/osama_alharbi/prj/testers/helper/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sa/osama_alharbi/prj/testers/helper/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/extension/axios.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sa/osama_alharbi/prj/testers/helper/controller/api/PathController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sa/osama_alharbi/prj/testers/helper/controller/api/PathController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/default/TestNG.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties/default/TestNG.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/default/cucumber.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties/default/cucumber.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/default/customWebdriverCapabilities.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties/default/customWebdriverCapabilities.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/default/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties/default/log4j2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/extension/inspect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/extension/inspect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/extension/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/extension/manifest.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +36,20 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "lrl4x"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="f66952fc-5054-425e-8499-5685eb615b48" />
+        <option name="url" value="https://github.com/dev-osama-alharbi/Testers-Helper" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -41,12 +64,19 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.google.cloudcode.ide_session_index": "20240331_0000",
-    "git-widget-placeholder": "f-fasfasfasf",
+    "git-widget-placeholder": "new-Branch1",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "H:/Projects/me/TestersHelper/src/main/resources/static/extension",
-    "settings.editor.selected.configurable": "preferences.JavaFX"
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -82,13 +112,14 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.2-temurin-21.0.2-4caba194b151-7da56cdf" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
       </set>
     </attachedChunks>
   </component>
@@ -100,18 +131,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711712142640</updated>
+      <workItem from="1711862672476" duration="6105000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="new-Branch1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -1,4 +1,5 @@
 /* globals chrome */
+// const axios = require('C:\\sprangprojects\\SpringandAngProject\\Testers-Helper\\src\\main\\resources\\static\\extension\\axios.min.js');
 var xPathFinder = xPathFinder || (() => {
   class Inspector {
     constructor() {
@@ -25,18 +26,31 @@ var xPathFinder = xPathFinder || (() => {
         const iframeNode    = window.frameElement || iframe;
         const contentString = iframeNode ? `Iframe: ${this.getXPath(iframeNode)}<br/>XPath: ${this.XPath}` : this.XPath;
 
-        if (contentNode) {
-          contentNode.innerHTML = contentString;
-        } else {
-          const contentHtml = document.createElement('div');
-          contentHtml.innerHTML = contentString;
-          contentHtml.id = this.contentNode;
-          document.body.appendChild(contentHtml);
-        }
-        this.options.clipboard && ( this.copyText(this.XPath) );
+        fetch("http://localhost:5551/api/v1/path",
+            {
+              method: "POST",
+              // mode: 'localhost:5551',
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify({"fullXPath": this.XPath}),
+            }
+        );
+        // if (contentNode) {
+        //   contentNode.innerHTML = contentString;
+        // } else {
+        //   const contentHtml = document.createElement('div');
+        //   contentHtml.innerHTML = contentString;
+        //   contentHtml.id = this.contentNode;
+        //   document.body.appendChild(contentHtml);
+        // }
+        // this.options.clipboard && ( this.copyText(this.XPath) );
+
       }
+
     }
 
+    // "fullXPath":"/html/body......."
     getOptions() {
       const storage = chrome.storage && (chrome.storage.local);
       const promise = storage.get({
@@ -179,9 +193,9 @@ var xPathFinder = xPathFinder || (() => {
 
     getXPath(el) {
       let nodeElem = el;
-      if (nodeElem.id && this.options.shortid) {
-        return `//*[@id="${nodeElem.id}"]`;
-      }
+      // if (nodeElem.id && this.options.shortid) {
+      //   return `//*[@id="${nodeElem.id}"]`;
+      // }
       const parts = [];
       while (nodeElem && nodeElem.nodeType === Node.ELEMENT_NODE) {
         let nbOfPreviousSiblings = 0;
